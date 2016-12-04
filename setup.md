@@ -29,5 +29,8 @@ Setting up a new laptop
 
         set clipboard=unnamed
 
+* Install VS Code
+    * Add code to PATH by pressing `F1` then typing `Shell Command: Install 'code' command in PATH`
+
 [github]: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-mac "generate new ssh key"
 [Pathogen]: https://github.com/tpope/vim-pathogen "Pathogen"
