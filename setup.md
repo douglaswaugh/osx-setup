@@ -10,8 +10,8 @@ Setting up a new laptop
 * Install and update rbenv
     * Install wget with homebrew `brew install wget`
     * Run `rbenv init` once and follow instructions
-* Install and update bundler
-* Install git from homebrew
+* Install and update bundler `gem install bundler`
+* Install git from homebrew `brew install git`
 * Install Tim Pope's [Pathogen][]
 
         mkdir -p ~/.vim/autoload ~/.vim/bundle && \
