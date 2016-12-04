@@ -12,6 +12,8 @@ Setting up a new laptop
     * Run `rbenv init` once and follow instructions
 * Install and update bundler `gem install bundler`
 * Install git from homebrew `brew install git`
+* Add diff-highlight to git diff
+    * ``git config --global core.pager `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight | less``
 * Install Tim Pope's [Pathogen][]
 
         mkdir -p ~/.vim/autoload ~/.vim/bundle && \
