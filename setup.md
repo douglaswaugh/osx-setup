@@ -8,7 +8,7 @@ Setting up a new laptop
         set clipboard=unnamed
 
 * Set up SSH
-    * Instructions on [github ssh][]
+    * Instructions on [setting up ssh for github][2]
     * Add ssh key to keychain `ssh-add -K ~/.ssh/id_rsa`
 * Install and update homebrew 
 * Install and update rbenv
@@ -18,8 +18,8 @@ Setting up a new laptop
 * Install git from homebrew `brew install git`
 * Add diff-highlight to git diff
     * ``git config --global core.pager `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight | less``
-* Install [vim colors solarized][]
-    * Install Tim Pope's [pathogen][]
+* Install [vim colors solarized][1]
+    * Install Tim Pope's [Pathogen][3]
 
             mkdir -p ~/.vim/autoload ~/.vim/bundle && \
             curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
@@ -42,7 +42,10 @@ Setting up a new laptop
 
 * Install VS Code
     * Add code to PATH by pressing `F1` then typing `Shell Command: Install 'code' command in PATH`
+* Install brew cask `brew cask`
+* Install shiftIt `brew cask install shiftit`
+* Install VS Code for Mac OSX
 
-[vim colors solarized]: https://github.com/altercation/vim-colors-solarized "vim colors solarized"
-[github ssh]: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-mac "generate new ssh key"
-[pathogen]: https://github.com/tpope/vim-pathogen "Pathogen"
+[1]: https://github.com/altercation/vim-colors-solarized "vim colors solarized"
+[2]: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-mac "github's generate new ssh key"
+[3]: https://github.com/tpope/vim-pathogen "Pathogen"
